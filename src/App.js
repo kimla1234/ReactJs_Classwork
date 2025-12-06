@@ -8,8 +8,15 @@ import TodoList from "./Components/Todo-List/TodoList";
 
 function App() {
   return (
-    <div className="App">
-      <TodoList/>
+    <div >
+      <Navbar />
+      <div className="p-8">
+        <h2 className="text-fuchsia-700 text-4xl">Counter App (useState)</h2>
+        <Counter />
+      </div>
+      <TodoList />
+      <div className="text-fuchsia-700 flex justify-center text-4xl">Component</div>
+      <Course />
     </div>
   );
 }
